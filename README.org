@@ -1,0 +1,17 @@
+* course-tools
+** Tools
+1. ~reorg~ converts ~.org~-files into /GitHub Flavoured Markdown/.
+2. ~scaffold~ creates an empty ~spec.yml~ and ~questions.yml~.
+** Usage
+1. Copy ~course-tools.make~ to the course repo.
+2. Call either
+   - ~make -f course-tools reorg~
+   - ~make -f course-tools scaffold~
+** Building
+1. ~make build~,
+2. ~make tag~,
+3. ~make push~.
+** Developing
+1. change code,
+2. ~poetry install~,
+3. ~poetry run reorg~ etc.
